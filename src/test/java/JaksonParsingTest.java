@@ -14,7 +14,7 @@ import java.io.InputStream;
 
         @Test
         void jacksonJsonTest() throws Exception {
-            try (InputStream stream = cl.getResourceAsStream("student.json")) {
+            try (InputStream stream = cl.getResourceAsStream("client_org.json")) {
                 ModelJava student = mapper.readValue(stream, ModelJava.class);
 
                 Assertions.assertEquals("01", student.getId());
