@@ -1,6 +1,4 @@
 
-
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ModelJava {
@@ -44,7 +42,6 @@ public class ModelJava {
         return client_type;
     }
 
-
     public void setClient_type(String client_type) {
         this.client_type = client_type;
     }
@@ -53,12 +50,8 @@ public class ModelJava {
         return organization;
     }
 
-
     public void setOrganization(String organization) {
         this.organization = organization;
     }
 
-
-
-
-    }
+}
